@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left">My portfolio</div>
+      <div class="right">
+        <a href="youtube.com" target="_blank">Home</a>
+        <a href="youtube.com" target="_blank">About</a>
+        <a href="youtube.com" target="_blank">Services</a>
+        <a href="youtube.com" target="_blank">Projects</a>
+        <a href="youtube.com" target="_blank">Email me</a> 
+      </div> 
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <a href="https://www.google.com/maps/place/Thikkoti,+Kerala+673529/@11.494068,75.6126399,15z/data=!3m1!4b1!4m6!3m5!1s0x3ba688d3cb547c5b:0xffa8108e4077bc02!8m2!3d11.4951664!4d75.6238949!16zL20vMDlxMDEx?entry=ttu" target="_blank"><img src="images/location.png"></a>
+        <div class="tooltip">my location</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="www.linkedin.com/in/fahim-firoz" target="_blank"><img src="images/linkedin.png"></a>
+        <div class="tooltip">my linkedin</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="https://github.com/fahim-firoz" target="_blank"><img src="images/github.png"></a>
+        <div class="tooltip">my github</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="https://leetcode.com/fahimfiroz/" target="_blank"><img src="images/leetcode.png"></a>
+        <div class="tooltip">my leetcode</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="mailto:fahim02469@gmail.com" target="_blank">Email me</a>
+      </div>
+    </div>
+    <main>
+      <div class="first-section">
+        <div class="left-section">
+          <div>Hi, my name is <span class="my-name">FAHIM K</span></div>
+          <div>and iam a <span id="element"></span></div>
+          <div>Web Developer</div>
+        </div>
+        <div class="right-section">
+          <img src="images/developer.png" />
+        </div>
+      </div>
+      <hr>
+      <div class="second-section">
+        <div style="font-size: 1.3rem;">Skillset</div>
+        <div class="vertical-line"></div>
+        <div class="horizontal-line">
+          <div>DSA</div>
+          <div>c</div>
+          <div>java</div>
+          <div>pyhton</div>
+          <div>html</div>
+          <div>css</div>
+          <div>javascript</div>
+        </div>
+      </div>
+    </main>
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['passionate', 'dedicated','proficient'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+  </body>
+</html>
